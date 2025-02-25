@@ -29,7 +29,7 @@ export const Footer = () => {
 
           <nav className="flex flex-col items-center gap-8 md:flex-row ">
             {footerLinks.map((link) => (
-              <a href={link.href} key={link.title} className="inline-flex items-center gap-1.5 bg-red-500 cursor-pointer" target="_blank" rel="noopener noreferrer">
+              <a href={link.href} key={link.title} className="inline-flex items-center gap-1.5 cursor-pointer" target="_blank" rel="noopener noreferrer">
                 <span className="font-semibold">{link.title}</span>
                 <ArrowUpRightIcon className='size-4' />
               </a>
