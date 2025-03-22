@@ -6,6 +6,7 @@ import CheckIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRight from "@/assets/icons/arrow-up-right.svg";
 import grainImage from "@/assets/images/grain.jpg";
 import { Card } from "@/components/Card";
+import devConnect from "@/assets/images/devConnect.png";
 
 const portfolioProjects = [
   {
@@ -37,6 +38,16 @@ const portfolioProjects = [
     ],
     link: "https://uzumakistore.netlify.app/",
     image: uzumakiStore,
+  },
+  {
+    title: "Dev-Connect",
+    results: [
+      { title: "Designed an interactive feed where users can like, comment, and engage with posts." },
+      { title: "Integrated real-time noti cations for connection requests and post interactions." },
+      
+    ],
+    link: "https://decconnect.onrender.com/",
+    image: devConnect,
   },
 ];
 
